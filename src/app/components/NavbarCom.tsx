@@ -6,26 +6,38 @@ import React from 'react';
 export const NavbarCom = () => {
   return (
     <div>
-      <Navbar shouldHideOnScroll>
+      <Navbar shouldHideOnScroll className='bg-black rounded-b-xl'>
         <NavbarBrand>
           <Link href='/'>
-            <p className='font-bold text-inherit'>ACME</p>
+            <p className='font-bold text-inherit text-white'>ACA WEB</p>
           </Link>
         </NavbarBrand>
         <NavbarContent className='hidden sm:flex gap-4' justify='end'>
           <NavbarItem>
-            <Link color='foreground' href='/about-us'>
+            <Link
+              color='foreground'
+              href='/about-us'
+              className='text-white text-lg hover:text-gray-300'
+            >
               Nosotros
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link aria-current='page' href='/services'>
+            <Link
+              aria-current='page'
+              href='/services'
+              className='text-white text-lg hover:text-gray-300'
+            >
               Servicios
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color='foreground' href='/pricing'>
-              Precios
+            <Link
+              color='foreground'
+              href='/contact'
+              className='text-white text-lg hover:text-gray-300'
+            >
+              Contáctanos
             </Link>
           </NavbarItem>
         </NavbarContent>

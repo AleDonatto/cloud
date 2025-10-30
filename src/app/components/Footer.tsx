@@ -11,14 +11,14 @@ export const Footer = () => {
             <div>Logo</div>
             <div>
               <div className='flex justify-center gap-4'>
-                <Link href='#' className='text-white text-lg'>
+                <Link href='/about-us' className='text-white text-lg'>
                   Nosotros
                 </Link>
-                <Link href='#' className='text-white text-lg'>
+                <Link href='/services' className='text-white text-lg'>
                   Servicios
                 </Link>
-                <Link href='#' className='text-white text-lg'>
-                  Precios
+                <Link href='/contact' className='text-white text-lg'>
+                  Contacto
                 </Link>
               </div>
             </div>
@@ -34,7 +34,7 @@ export const Footer = () => {
             </div>
           </div>
           <Divider className='my-4' />
-          &copy; {new Date().getFullYear()} ACME. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} ACA WEB. Todos los derechos reservados.
         </footer>
       </div>
     </div>

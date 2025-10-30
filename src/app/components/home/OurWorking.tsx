@@ -19,7 +19,7 @@ export const OurWorking = () => {
     },
     {
       id: 3,
-      title: '03 Implementacion',
+      title: '03 Implementación',
       description:
         'Durante la fase de implementación, llevaremos a cabo el plan acordado, utilizando las mejores prácticas y tecnologías para garantizar resultados óptimos.',
     },
