@@ -34,37 +34,37 @@ export const metadata: Metadata = {
     'Next.js',
     'React',
   ],
-  authors: [{ name: 'WebStorage Pro', url: 'https://webstoragepro.com' }],
+  authors: [{ name: 'WebStorage Pro', url: 'https://cloudprod.netlify.app' }],
   creator: 'WebStorage Pro',
   publisher: 'WebStorage Pro',
-  // openGraph: {
-  //   type: 'website',
-  //   locale: 'es_MX',
-  //   url: 'https://webstoragepro.com',
-  //   siteName: 'WebStorage Pro',
-  //   title: 'Almacenamiento y Creación de Sitios Web',
-  //   description:
-  //     'Desarrollo de sitios web a medida, optimizados para SEO, con hosting rápido y seguro.',
-  //   images: [
-  //     {
-  //       url: 'https://webstoragepro.com/og-image.jpg',
-  //       width: 1200,
-  //       height: 630,
-  //       alt: 'WebStorage Pro - Sitios optimizados para SEO',
-  //     },
-  //   ],
-  // },
-  // twitter: {
-  //   card: 'summary_large_image',
-  //   title: 'WebStorage Pro | Sitios Web y Hosting Optimizado',
-  //   description:
-  //     'Hosting y desarrollo de sitios web personalizados, rápidos y optimizados para SEO.',
-  //   creator: '@webstoragepro',
-  //   images: ['https://webstoragepro.com/og-image.jpg'],
-  // },
-  // alternates: {
-  //   canonical: 'https://webstoragepro.com',
-  // },
+  openGraph: {
+    type: 'website',
+    locale: 'es_MX',
+    url: 'https://cloudprod.netlify.app',
+    siteName: 'WebStorage Pro',
+    title: 'Almacenamiento y Creación de Sitios Web',
+    description:
+      'Desarrollo de sitios web a medida, optimizados para SEO, con hosting rápido y seguro.',
+    images: [
+      {
+        url: 'https://cloudprod.netlify.app/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'WebStorage Pro - Sitios optimizados para SEO',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'WebStorage Pro | Sitios Web y Hosting Optimizado',
+    description:
+      'Hosting y desarrollo de sitios web personalizados, rápidos y optimizados para SEO.',
+    creator: '@webstoragepro',
+    images: ['https://cloudprod.netlify.app/og-image.png'],
+  },
+  alternates: {
+    canonical: 'https://cloudprod.netlify.app',
+  },
   robots: {
     index: true,
     follow: true,
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
     },
   },
-  category: 'Tecnología / Desarrollo Web / SEO',
+  category: 'Tecnología / Desarrollo Web / SEO / Paginas Web / Hosting',
 };
 
 export default function RootLayout({
