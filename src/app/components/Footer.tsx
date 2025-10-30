@@ -7,7 +7,7 @@ export const Footer = () => {
     <div>
       <div className='container mx-auto px-10 mt-16'>
         <footer className='rounded-t-xl py-6 text-center text-sm text-white bg-black'>
-          <div className='grid grid-cols-3'>
+          <div className='grid grid-cols-1 lg:grid-cols-3 gap-6'>
             <div>Logo</div>
             <div>
               <div className='flex justify-center gap-4'>

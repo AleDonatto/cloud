@@ -72,7 +72,7 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
               {services.map((service) => (
                 <CardServices
                   key={service.id}
@@ -112,7 +112,7 @@ export default function Home() {
           >
             <div className='my-16'>
               <div className='bg-[#f3f3f3] rounded-xl'>
-                <div className='grid grid-cols-2 gap-6 p-10'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 p-10'>
                   <div className='flex items-center'>
                     <div>
                       <h1 className='text-2xl font-bold mb-10'>Hagamos que las cosas sucedan</h1>
